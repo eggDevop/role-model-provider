@@ -1,8 +1,8 @@
 <?php
 
-namespace UserProvider;
+namespace RoleProvider;
 
-use UserProvider\Core\Curl;
+use RoleProvider\Core\Curl;
 
 class Base
 {
