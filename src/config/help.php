@@ -47,7 +47,7 @@ return [
         ],
         'updateRole' => [
             'params' => [
-                'id'       => 'required'
+                'id'       => 'required',
                 'name'     => 'not required',
                 'ref_type' => 'not required',
                 'ref_id'   => 'not required',
@@ -73,7 +73,7 @@ return [
                 'attributes.updated_at' => 'Update date time',
                 'id'                    => 'Role ID',
             ]
-        ]
+        ],
         //Permission
         'getPermissionList' => [
             'params' => [],

@@ -37,6 +37,8 @@ class Role extends Base
         //set curl
         $this->setCurl($this->configs['url']);
 
+        parent::__construct();
+
     }
 
     public function getRoleList($params)
