@@ -1,6 +1,6 @@
 <?php
 
-namespace UserProvider\Core;
+namespace RoleProvider\Core;
 
 /**
  * An object-oriented wrapper of the PHP cURL extension.
