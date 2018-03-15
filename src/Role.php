@@ -70,7 +70,7 @@ class Role extends Base
         //complete uri
         $uri = str_replace('[id]', $params['id'], $this->configs['update']);
 
-        $this->curl->put($uri, $params);
+        $this->curl->put($uri, $params, true);
 
         return $this->manageResponse($this->curl, $this->serviceName);
     }

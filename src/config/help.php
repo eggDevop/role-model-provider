@@ -1,7 +1,8 @@
 <?php
 
 return [
-        'method_list' => ['getRoleList', 'getRoleDetail', 'createRole', 'updateRole', 'deleteRole'],
+        'method_list' => ['getRoleList', 'getRoleDetail', 'createRole', 'updateRole', 'deleteRole', 
+                            'getPermissionList', 'getPermissionDetail', 'createPermission', 'updatePermission', 'deletePermission'],
         //Role
         'getRoleList' => [
             'params' => [
