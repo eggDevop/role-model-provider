@@ -1,5 +1,5 @@
 {
-    "name": "eggdigital/role-model-provider",
+    "name": "eggdevops/role-model-provider",
     "description": "Package for manage role & permission data",
     "type": "library",
     "license": "Apache-2.0",
