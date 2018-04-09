@@ -45,7 +45,7 @@ class Base
     }
 
 	//Method for manage response
-    protected function manageResponse($curl, $serviceName, $successCode)
+    protected function manageResponse($curl, $serviceName, $successCode=200)
     {
         //Define output
         $result = [
