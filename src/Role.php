@@ -53,7 +53,7 @@ class Role extends Base
         //complete uri
         $uri = str_replace('[id]', $params['id'], $this->configs['detail']);
 
-        $this->curl->get($this->configs['detail'], $params);
+        $this->curl->get($uri, $params);
 
         return $this->manageResponse($this->curl, $this->serviceName);
     }
