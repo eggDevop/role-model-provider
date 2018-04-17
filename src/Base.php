@@ -12,7 +12,7 @@ class Base
 
 	public function __construct()
 	{
-		define('BASE_DIR', dirname(__DIR__) . '/src');
+        if (!defined('BASE_DIR')) define('BASE_DIR', dirname(__DIR__) . '/src');
         $this->messages = include BASE_DIR . '/config/messages.php';
 		$this->helps    = include BASE_DIR . '/config/help.php';
 	}
@@ -45,7 +45,7 @@ class Base
     }
 
 	//Method for manage response
-    protected function manageResponse($curl, $serviceName, $successCode)
+    protected function manageResponse($curl, $serviceName, $successCode=200)
     {
         //Define output
         $result = [

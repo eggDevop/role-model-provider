@@ -55,7 +55,7 @@ class Role extends Base
         //set curl
         $this->setCurl($this->configs['url']);
 
-        $this->curl->get($this->configs['detail'], $params);
+        $this->curl->get($uri, $params);
 
         return $this->manageResponse($this->curl, $this->serviceName);
     }
